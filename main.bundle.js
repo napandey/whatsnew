@@ -280,7 +280,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/home/welcome-card/welcome-card.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"demo-card-wide mdl-card mdl-shadow--2dp\">\n  <div class=\"mdl-card__title\">\n    <h2 class=\"mdl-card__title-text\">Welcome</h2>\n  </div>\n  <div class=\"mdl-card__supporting-text\">\n    Use this app to add new features that you want the world to know about!\n  </div>\n  <div class=\"mdl-card__actions mdl-card--border\">\n    <a id=\"user-home-button\" class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n      User\n    </a>\n\n\n    <button id=\"user-admin-button\" class=\"mdl-button right mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n      Admin\n    </button>\n\n\n    <div class=\"mdl-tooltip\"  data-mdl-for=\"user-admin-button\">\n      Approve feature!<br>limited access!\n    </div>\n\n    <div class=\"mdl-tooltip\"  data-mdl-for=\"user-home-button\">\n      Add new feature<br>\n    </div>\n  </div>\n  <div class=\"mdl-card__menu\">\n\n  </div>\n</div>\n"
+module.exports = "<div class=\"demo-card-wide mdl-card mdl-shadow--2dp\">\n  <div class=\"mdl-card__title\">\n    <h2 class=\"mdl-card__title-text\">Welcome</h2>\n  </div>\n  <div class=\"mdl-card__supporting-text\">\n    Use this app to add new features that you want the world to know about!\n  </div>\n  <div class=\"mdl-card__actions mdl-card--border\">\n    <a id=\"user-home-button\" class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\" (click)=\"handleUserButtonClick()\">\n      User\n    </a>\n\n\n    <button id=\"user-admin-button\" class=\"mdl-button right mdl-button--colored mdl-js-button mdl-js-ripple-effect\" (click)=\"handleAdminClick()\">\n      Admin\n    </button>\n\n\n    <div class=\"mdl-tooltip\"  data-mdl-for=\"user-admin-button\">\n      Approve feature!<br>limited access!\n    </div>\n\n    <div class=\"mdl-tooltip\"  data-mdl-for=\"user-home-button\">\n      Add new feature<br>\n    </div>\n  </div>\n  <div class=\"mdl-card__menu\">\n\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -304,6 +304,12 @@ var WelcomeCardComponent = (function () {
     function WelcomeCardComponent() {
     }
     WelcomeCardComponent.prototype.ngOnInit = function () {
+    };
+    WelcomeCardComponent.prototype.handleUserButtonClick = function () {
+        window.location.href = 'https://napandey.github.io/whatsnew/add-new-feature';
+    };
+    WelcomeCardComponent.prototype.handleAdminClick = function () {
+        window.location.href = 'https://napandey.github.io/whatsnew/login';
     };
     return WelcomeCardComponent;
 }());
