@@ -21,7 +21,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "\n", ""]);
+exports.push([module.i, "header{\n  background-color:#ffcb00 ;\n  color:#0065b8 ;\n}\n", ""]);
 
 // exports
 
@@ -267,7 +267,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".demo-card-wide.mdl-card {\n  width: 512px;\n  margin: 20px auto;\n\n}\n.demo-card-wide > .mdl-card__title {\n  color: #fff;\n  height: 176px;\n  background: url(" + __webpack_require__("../../../../../src/assets/welcome_card.jpg") + ") center / cover;\n}\n.demo-card-wide > .mdl-card__menu {\n  color: #fff;\n}\n", ""]);
+exports.push([module.i, ".demo-card-wide.mdl-card {\n  width: 512px;\n  margin: 20px auto;\n\n}\n.demo-card-wide > .mdl-card__title {\n  color: #fff;\n  height: 176px;\n  background: url(" + __webpack_require__("../../../../../src/assets/expedia_bg.jpg") + ") center / cover;\n}\n.demo-card-wide > .mdl-card__menu {\n  color: #fff;\n}\n", ""]);
 
 // exports
 
@@ -387,10 +387,10 @@ LoginComponent = __decorate([
 
 /***/ }),
 
-/***/ "../../../../../src/assets/welcome_card.jpg":
+/***/ "../../../../../src/assets/expedia_bg.jpg":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "welcome_card.7edb812a958def0057cf.jpg";
+module.exports = __webpack_require__.p + "expedia_bg.9e26633607049dd3de29.jpg";
 
 /***/ }),
 
