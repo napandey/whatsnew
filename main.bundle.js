@@ -21,7 +21,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "header{\n  background-color:#ffcb00 ;\n  color:#0065b8 ;\n}\n\n.mdl-card__title-text{\n  color: #0065b8;\n}\n", ""]);
+exports.push([module.i, "header{\n  background-color:#ffcb00 ;\n  color:#0065b8 ;\n}\n*{\n  color:#0065b8 !important;\n}\n.mdl-card__title-text{\n  color: #0065b8;\n}\n", ""]);
 
 // exports
 
@@ -145,7 +145,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".mdl-card {\n  width: 512px;\n  margin: 20px auto;\n\n}\n\n.mdl-color--primary {\n  background-color: #ffcb00!important;\n}\n\n", ""]);
+exports.push([module.i, ".mdl-card {\n  width: 512px;\n  margin: 20px auto;\n\n}\n\n.mdl-color--primary {\n  background-color: #ffcb00!important;\n  color: #0065b8;\n}\n\n", ""]);
 
 // exports
 
