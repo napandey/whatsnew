@@ -21,7 +21,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "header{\n  background-color:#ffcb00 ;\n  color:#0065b8 ;\n}\n", ""]);
+exports.push([module.i, "header{\n  background-color:#ffcb00 ;\n  color:#0065b8 ;\n}\n\n.mdl-card__title-text{\n  color: #0065b8;\n}\n", ""]);
 
 // exports
 
@@ -145,7 +145,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".mdl-card {\n  width: 512px;\n  margin: 20px auto;\n\n}\n", ""]);
+exports.push([module.i, ".mdl-card {\n  width: 512px;\n  margin: 20px auto;\n\n}\n\n.mdl-color--primary {\n  background-color: #ffcb00!important;\n}\n\n", ""]);
 
 // exports
 
@@ -158,7 +158,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/feature/feature.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"mdl-card mdl-shadow--6dp\">\n  <div class=\"mdl-card__title mdl-color-text--white\">\n    <h2 class=\"mdl-card__title-text\">Add New feature</h2>\n  </div>\n  <div class=\"mdl-card__supporting-text\">\n    <form action=\"#\">\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <input class=\"mdl-textfield__input\" type=\"text\" id=\"email\" />\n        <label class=\"mdl-textfield__label\" for=\"email\">Your Email id</label>\n      </div>\n\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <label class=\"mdl-radio mdl-js-radio mdl-js-ripple-effect\" for=\"android\">\n          <input type=\"radio\" id=\"android\" class=\"mdl-radio__button\" name=\"options\" checked />\n          <!-- intitial state checked using attribute checked  -->\n          <span class=\"mdl-radio__label\">Android</span>\n        </label>\n\n        <br>\n        <br>\n\n        <!-- Radio Button 2 -->\n        <label class=\"mdl-radio mdl-js-radio mdl-js-ripple-effect\" for=\"windows\">\n          <input type=\"radio\" id=\"windows\" class=\"mdl-radio__button\" name=\"options\" />\n          <span class=\"mdl-radio__label\">iOS</span>\n        </label>\n      </div>\n\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <input class=\"mdl-textfield__input\" type=\"text\" id=\"applicationName\" />\n        <label class=\"mdl-textfield__label\" for=\"version\">Application Name</label>\n      </div>\n\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <input class=\"mdl-textfield__input\" type=\"text\" id=\"version\" />\n        <label class=\"mdl-textfield__label\" for=\"version\">Application version</label>\n      </div>\n\n\n\n\n\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <input class=\"mdl-textfield__input\" type=\"text\" id=\"short-description\" />\n        <label class=\"mdl-textfield__label\" for=\"short-description\">Feature Headline</label>\n      </div>\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <textarea class=\"mdl-textfield__input\" type=\"text\" rows= \"3\" id=\"sample5\" ></textarea>\n        <label class=\"mdl-textfield__label\" for=\"sample5\">Detailed Description...</label>\n      </div>\n\n    </form>\n  </div>\n  <div class=\"mdl-card__actions mdl-card--border\">\n    <button class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">Submit</button>\n  </div>\n</div>\n"
+module.exports = "<div class=\"mdl-card mdl-shadow--6dp\">\n  <div class=\"mdl-card__title mdl-color--primary\">\n    <h2 class=\"mdl-card__title-text\">Add New feature</h2>\n  </div>\n  <div class=\"mdl-card__supporting-text\">\n    <form action=\"#\">\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <input class=\"mdl-textfield__input\" type=\"text\" id=\"email\" />\n        <label class=\"mdl-textfield__label\" for=\"email\">Your Email id</label>\n      </div>\n\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <label class=\"mdl-radio mdl-js-radio mdl-js-ripple-effect\" for=\"android\">\n          <input type=\"radio\" id=\"android\" class=\"mdl-radio__button\" name=\"options\" checked />\n          <!-- intitial state checked using attribute checked  -->\n          <span class=\"mdl-radio__label\">Android</span>\n        </label>\n\n        <br>\n        <br>\n\n        <!-- Radio Button 2 -->\n        <label class=\"mdl-radio mdl-js-radio mdl-js-ripple-effect\" for=\"windows\">\n          <input type=\"radio\" id=\"windows\" class=\"mdl-radio__button\" name=\"options\" />\n          <span class=\"mdl-radio__label\">iOS</span>\n        </label>\n      </div>\n\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <input class=\"mdl-textfield__input\" type=\"text\" id=\"applicationName\" />\n        <label class=\"mdl-textfield__label\" for=\"version\">Application Name</label>\n      </div>\n\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <input class=\"mdl-textfield__input\" type=\"text\" id=\"version\" />\n        <label class=\"mdl-textfield__label\" for=\"version\">Application version</label>\n      </div>\n\n\n\n\n\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <input class=\"mdl-textfield__input\" type=\"text\" id=\"short-description\" />\n        <label class=\"mdl-textfield__label\" for=\"short-description\">Feature Headline</label>\n      </div>\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <textarea class=\"mdl-textfield__input\" type=\"text\" rows= \"3\" id=\"sample5\" ></textarea>\n        <label class=\"mdl-textfield__label\" for=\"sample5\">Detailed Description...</label>\n      </div>\n\n    </form>\n  </div>\n  <div class=\"mdl-card__actions mdl-card--border\">\n    <button class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">Submit</button>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -206,7 +206,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".mdl-color--primary {\n  background-color: #ffcb00!important;\n}\n\n.mdl-card__title-text{\n  color: #0065b8;\n}\n", ""]);
 
 // exports
 
@@ -267,7 +267,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".demo-card-wide.mdl-card {\n  width: 512px;\n  margin: 20px auto;\n\n}\n\n.mdl-card__title{\n\n  background-color:   #ffcb00;\n;\n}\n.demo-card-wide > .mdl-card__title {\n  color: #fff;\n  height: 176px;\n  background: url(" + __webpack_require__("../../../../../src/assets/expedia_bg.jpg") + ") center / cover;\n}\n.demo-card-wide > .mdl-card__menu {\n  color: #fff;\n}\n", ""]);
+exports.push([module.i, ".demo-card-wide.mdl-card {\n  width: 512px;\n  margin: 20px auto;\n\n}\n\n.mdl-card__title{\n\n  background-color:   #ffcb00;\n;\n}\n\n.mdl-card__title-text{\n  color: #0065b8;\n}\n.demo-card-wide > .mdl-card__title {\n  color: #fff;\n  height: 176px;\n  background: url(" + __webpack_require__("../../../../../src/assets/expedia_bg.jpg") + ") center / cover;\n}\n.demo-card-wide > .mdl-card__menu {\n  color: #fff;\n}\n", ""]);
 
 // exports
 
@@ -334,7 +334,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".mdl-card__title{\n  background-color:   #ffcb00;\n;\n}\n\n.mdl-card {\n  width: 512px;\n  margin: 20px auto;\n\n}\n", ""]);
+exports.push([module.i, ".mdl-color--primary {\n  background-color: #ffcb00!important;\n}\n\n.mdl-card {\n  width: 512px;\n  margin: 20px auto;\n}\n\n.mdl-card__title-text{\n  color: #0065b8;\n}\n", ""]);
 
 // exports
 
@@ -347,7 +347,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/login/login.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"mdl-card mdl-shadow--6dp\">\n  <div class=\"mdl-card__title mdl-color-text--white\">\n    <h2 class=\"mdl-card__title-text\">Admin</h2>\n  </div>\n  <div class=\"mdl-card__supporting-text\">\n    <form action=\"#\">\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <input class=\"mdl-textfield__input\" type=\"password\" id=\"userpass\" />\n        <label class=\"mdl-textfield__label\" for=\"userpass\">Password</label>\n      </div>\n    </form>\n  </div>\n  <div class=\"mdl-card__actions mdl-card--border\">\n    <button class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">Log in</button>\n  </div>\n</div>\n"
+module.exports = "<div class=\"mdl-card mdl-shadow--6dp\">\n  <div class=\"mdl-card__title mdl-color--primary\">\n    <h2 class=\"mdl-card__title-text\">Admin</h2>\n  </div>\n  <div class=\"mdl-card__supporting-text\">\n    <form action=\"#\">\n      <div class=\"mdl-textfield mdl-js-textfield\">\n        <input class=\"mdl-textfield__input\" type=\"password\" id=\"userpass\" />\n        <label class=\"mdl-textfield__label\" for=\"userpass\">Password</label>\n      </div>\n    </form>\n  </div>\n  <div class=\"mdl-card__actions mdl-card--border\">\n    <button class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">Log in</button>\n  </div>\n</div>\n"
 
 /***/ }),
 
